@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "koa": "^2.14.2"
+  },
+  "engines": {
+    "node": ">=18.15.0"
   }
 }

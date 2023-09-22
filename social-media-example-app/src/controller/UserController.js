@@ -3,6 +3,8 @@ let users = [];
 
 async function createUser(ctx, next){
 
+    console.log(ctx.request.body);
+
     let user = ctx.request.body;
     user.id = ++lastId;
     users.push(user)
